@@ -1,0 +1,32 @@
+{
+    "data" : [
+        {
+            "id"      : "FEMA",
+            "tags"    : "mitigation,floodplain_management,water_resources,hh_modeling,emergency_preparedness,gage_information,planning,dam_levee_safety",
+            "logo"    : "../assets/images/FEMA.jpg",
+            "alt"     : "FEMA",
+            "title"   : "Federal Emergency Management Agency (FEMA)",
+            "offices" : [
+                {
+                    "id"   : "FMA",
+                    "name" : "Flood Mitigation Assistance",
+                    "tags" : "mitigation,planning"
+                }
+            ]
+        },
+        {
+            "id"      : "USACE",
+            "tags"    : "mitigation,floodplain_management,water_resources,hh_modeling,emergency_preparedness,planning,dam_levee_safety",
+            "logo"    : "../assets/images/usace.png",
+            "alt"     : "USACE",
+            "title"   : "United States Army Corps of Engineers (USACE)",
+            "offices" : [
+                {
+                    "id"   : "EPRRP",
+                    "name" : "Emergency Preparedness, Response and Recovery Program",
+                    "tags" : "emergency_preparedness"
+                }
+            ]
+        }
+    ]
+}

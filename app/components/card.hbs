@@ -1,0 +1,8 @@
+<div class="card" id={{@card.id}} data-tags={{@card.tags}}>
+    <Card::Image src={{@card.logo}} alt={{@card.alt}} title={{@card.title}} />
+    <div class="container">
+        {{#each @card.offices as |office|}}
+          <Office @office = {{office}} />
+        {{/each}}
+    </div>
+</div>
