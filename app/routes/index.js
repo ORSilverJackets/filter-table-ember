@@ -2,7 +2,7 @@ import Route from '@ember/routing/route';
 
 import jQuery from 'jquery';
 
-import papaparse from "papaparse"
+import Papa from "papaparse"
 export default class IndexRoute extends Route {
   async model() {
     let response = await fetch("/api/test.json");
