@@ -82,9 +82,5 @@
   },
   "ember": {
     "edition": "octane"
-  },
-  "ember-addon": {
-    "configPath": "tests/dummy/config",
-    "demoURL": "http://mkoohafkan.github.io/filter-table-ember"
   }  
 }
