@@ -7,7 +7,5 @@ module.exports = function (defaults) {
     // Add options here
   });
 
-  app.import('vendor/javascripts/filtertable.js');
-
   return app.toTree();
 };

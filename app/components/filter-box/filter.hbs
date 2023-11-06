@@ -1,3 +1,6 @@
 <li>
-    <label><input type="checkbox" name="options[]" ...attributes>{{@label}}</label>
+    <label>
+        <Input @type='checkbox' name='options[]' @value={{@tag}} {{on 'click' this.applyFilters}} />
+        {{@label}}
+        </label>
 </li>
