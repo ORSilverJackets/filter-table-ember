@@ -42,7 +42,8 @@ module.exports = function (environment) {
 
   if (environment === 'production') {
     ENV.rootURL = '/filter-table-ember';
-    ENV.locationType = 'hash';  }
+    ENV.locationType = 'hash';
+  }
 
   return ENV;
 };

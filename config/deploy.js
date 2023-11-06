@@ -2,15 +2,9 @@
 
 module.exports = function(deployTarget) {
   let ENV = {
-    git: {
-      repo: 'git@github.com:ef4/ember-cli-deploy-git.git',
-      branch: 'deploys',
-      worktreePath: '/tmp/ef4-deploy',
-      commitMessage: 'Deployed %@'      
-    }
+    build: {}
     // include other plugin configuration that applies to all deploy targets here
   };
-
   if (deployTarget === 'development') {
     ENV.build.environment = 'development';
     // configure other plugins for development deploy target here
@@ -24,6 +18,9 @@ module.exports = function(deployTarget) {
   if (deployTarget === 'production') {
     ENV.build.environment = 'production';
     // configure other plugins for production deploy target here
+    ENV.git = {
+      commitMessage: 'Deployed %@'      
+    };  
   }
 
   // Note: if you need to build some configuration asynchronously, you can return
