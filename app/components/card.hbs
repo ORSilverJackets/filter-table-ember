@@ -1,5 +1,5 @@
 <div class="card" id={{@card.id}} data-tags={{@card.tags}}>
-    <Card::Image src="../assets/images/{{@card.logo}}" alt={{@card.alt}} title={{@card.title}} />
+    <Card::Image src="/assets/images/{{@card.logo}}" alt={{@card.alt}} title={{@card.title}} />
     <div class="container">
         {{#each @card.offices as |office|}}
           <Office @office = {{office}} />
