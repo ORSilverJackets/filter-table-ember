@@ -8,8 +8,8 @@ export default class IndexRoute extends Route {
     
     // read input files
     const [agencies_response, offices_response] = await Promise.all([
-      fetch('/api/agencies.csv'),
-      fetch('/api/program_selection_guide.csv')
+      fetch('https://raw.githubusercontent.com/mkoohafkan/filter-table-ember/master/public/api/agencies.csv'),
+      fetch('https://raw.githubusercontent.com/mkoohafkan/filter-table-ember/master/public/api/program_selection_guide.csv')
     ]);
     const [agencies_text, offices_text] = await Promise.all([
       agencies_response.text(),
