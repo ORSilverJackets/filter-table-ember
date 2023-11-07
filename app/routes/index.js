@@ -44,7 +44,7 @@ export default class IndexRoute extends Route {
       );
       // create tag string
       const tag_list = Object.keys(marked_tags);
-      const tags = tag_list.join(',').replace(' ', '_').replace('/', '_');
+      const tags = tag_list.join(',');
       r[agency] = r[agency] || [];
       r[agency]['offices'] = r[agency]['offices'] || [];
       r[agency]['offices'].push({ office, id, tags });
@@ -64,9 +64,7 @@ export default class IndexRoute extends Route {
         agencies[key]['offices'] = [];
       }
       agencies[key]['tags'] = [...new Set(agency_tag_list)]
-        .join(',')
-        .replace(' ', '_')
-        .replace('/', '_');
+        .join(',');
     }
     // return array, not named elements
     return Object.values(agencies);
