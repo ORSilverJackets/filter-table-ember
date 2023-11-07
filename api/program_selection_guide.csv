@@ -1,4 +1,4 @@
-﻿id,office,agency,Mitigation,Floodplain Management,Water Resources,H&H Modeling,Emergency Preparedness,Gage Information,Weather,Planning,Dam/Levee Safety
+﻿id,office,agency,Mitigation,Floodplain Management,Water Resources,H and H Modeling,Emergency Preparedness,Gage Information,Weather,Planning,Dam/Levee Safety
 FMA,FEMA Flood Mitigation Assistance (FMA),FEMA,X,,,,,,,X,
 NFIP,FEMA National Flood Insurance Program (NFIP),FEMA,,X,,,,,,,
 CRS,FEMA Community Rating System (CRS),FEMA,,X,,,,,,,
@@ -42,5 +42,5 @@ WSPP,USDA/NRCS Watershed Surveys and Planning Program,USDA,X,,X,,X,,,X,
 DRA,USDA/NRCS Dam Rehabilitation Assistance,USDA,X,,,,,,,X,X
 SCNFIP,State Coordination of the National Flood Insurance Program (NFIP),DLCD,,X,,,,,,X,
 SHMP,State Hazard Mitigation Plan,DLCD,X,,,,,,,X,
-GSSP,Geologic Survey & Services Program,DOGAMI,X,,,,,,,,
+GSSP,Geologic Survey &amp; Services Program,DOGAMI,X,,,,,,,,
 MLRRP,Mineral Land Regulation and Reclamation Program,DOGAMI,X,,,,,,,,
